@@ -64,6 +64,7 @@ google_analytics:
 #     dark   - Use the dark color scheme
 #
 theme_mode: # [light|dark]
+incremental: true
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -120,11 +121,11 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
-# markdown: CommonMark
 markdown: 
+# markdown: CommonMarkGhPages
 # commonmark:
-#   options: ["FOOTNOTES"]
-#   extensions: ["strikethrough", "autolink", "table"]
+#   options: ["SMART", "FOOTNOTES"]
+#   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 plugins:
   - jekyll-target-blank

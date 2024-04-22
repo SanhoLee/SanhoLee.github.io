@@ -25,5 +25,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-target-blank', '~> 2.0', '>= 2.0.2'
 
 group :jekyll_plugins do
-  gem 'jekyll-commonmark'
+  gem 'jekyll-commonmark-ghpages'
 end
