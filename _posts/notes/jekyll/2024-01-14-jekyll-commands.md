@@ -3,7 +3,8 @@ layout: post
 title: "Jekyll commands and files to build blog."
 date: 2024-01-14 11:50:33 +0900
 categories: [notes, jekyll]
-permalink: /:year/:month/:title
+permalink: /:categories/1
+
 ---
 I'm going to summarize several important contents when I set-up static web pages by Jekyll and Github pages. Actually I was really suprised that it's so easy to make and deploy this blog with github built-in services, Github pages. and Here are [jekyll's getting-started page](https://jekyllrb.com/docs/) and [chirpy theme guide](https://chirpy.cotes.page/posts/getting-started/) what I refered to. Yeah, Try make your own blog too, if you want.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Basic requirments to work in Embedded development world."
 date: 2024-02-07 12:00:10 +0900
 categories: notes embedded
-permalink: /:year/:month/:title
+permalink: /:categories/1
 img_path: /imgs/ebd/202402/
 ---
 

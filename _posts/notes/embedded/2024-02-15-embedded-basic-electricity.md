@@ -3,7 +3,7 @@ layout: post
 title: "Basic knowledge about electricity."
 date: 2024-02-15 12:00:10 +0900
 categories: notes embedded
-permalink: /:year/:month/:title
+permalink: /:categories/2
 img_path: /imgs/ebd/202402/
 ---
 

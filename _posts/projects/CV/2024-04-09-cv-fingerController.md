@@ -4,7 +4,7 @@ title:  "Finger Controller with Servo Motor."
 date:   2024-04-09 11:50:33 +0900
 categories: Project CV
 tags: [serial, motor]
-permalink: /:year/:month/:title
+permalink: /:categories/2
 img_path: /imgs/pjt/cv/fingerController/
 ---
 
