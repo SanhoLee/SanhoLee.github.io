@@ -11,15 +11,15 @@ img_path: /imgs/pjt/cv/edgeToCoordinates/
 ## Preview 
 
 **Overall appearance and potential usage.**
-![overallAppearance](overall_appearance_and_result.png)
+![overall Appearance](overall-appearance-and-result.png)
 
 
 **Available  mouseEvent - cutting img**
-![mouse_imgCut](mouseEvent_imgCut.gif)
+![mouse_imgCut](mouseEvent-image-Cut.gif)
 _cutting img by selecting 2 points rectangle-shape of ROI_
 
 **Available  mouseEvent - masking img**
-![mouse_imgMask](mouseEvent_imgMask.gif)
+![mouse_imgMask](mouseEvent_image-Mask.gif)
 _masking specific area by selecting points_
 
 
@@ -41,21 +41,21 @@ I have concluded that if you need to write a program that is simple yet fast, us
 
 **Search Period : 2020.1.1~2022.4.30**
 
-![1](1.png)
+![Google Trends search results](Google-Trends-search-results.png)
 _Google Trends search results.(OpenCvSharp vs EmguCV)_
 
 Even if we consider the entire world, neither platform had a significantly high search volume. However, when considering only the average values, it seems that choosing OPENCVSHARP was a good decision as it showed a slight increase.
 
 ## **Regional comparative analysis results.🌏📊**
 
-![2](2.png)
+![Google Trends search results (regional breakdown)](Google-Trends-search-results-regional-breakdown.png)
 _Google Trends search results (regional breakdown)_
 
 I have a suspicion that what I searched for might have been reflected in Japanese statistics (in Osaka, Japan). Since I have actually searched quite a lot, I wonder if it's possible. Anyway, in Korea, it is the second highest search volume, followed by the United States.
 
 I was curious why the search volume is smaller than expected, so I checked the trend with the word OpenCV and indeed, OpenCV is the main one.
 
-![3](3.png)
+![Google Trends search results(+OpenCV)](Google-Trends-search-results-OpenCV.png)
 _Google Trends search results(+OpenCV)_
 
 As a pastime, I checked the trends. It seems like I should search and think more about creating programs with OpenCV or how to apply it in actual applications.
@@ -93,8 +93,8 @@ As a pastime, I checked the trends. It seems like I should search and think more
     1.  Kernel size k for Gaussian Blur (setting the row and column sizes to be the same)
     2.  The low and high threshold values of CannyEdge
 
-![4](4.png)
-_Setting CannyEdge Parameters_
+![Setting-of-CannyEdge-Parameters](Setting-of-CannyEdge-Parameters.png)
+_Setting of CannyEdge Parameters_
 
 ## **Structure of a Window form (entry, main)📃**
 
@@ -102,10 +102,10 @@ _Setting CannyEdge Parameters_
 -   caseA form(main form)
 -   Parameter configuration form
 
-![5](5.png)
+![Form of entry](Form-of-entry.png)
 _Form of entry (entry form)_
 
-![6](6.png)
+![Form of caseA](Form-of-caseA.png)
 _Form of caseA (main form)_
 
 #### _**[Details of the code(Github) ⚙️][4]**_

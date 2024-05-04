@@ -18,7 +18,7 @@ img_path: /imgs/ebd/202402/
     - It enables such like analog-output signal control by digital-output signals.
     - Motor control could be one example, if duty ratio is going to high, velocity will be faster.
 
-![1](DutyCycle.jpg)
+![1](Duty-Cycle.jpg)
  _concept of duty cycle._
 
 ### About and differences of i2c, spi, uart communications

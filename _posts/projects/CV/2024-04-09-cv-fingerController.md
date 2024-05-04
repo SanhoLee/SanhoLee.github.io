@@ -51,7 +51,7 @@ Yes, nothing very special, but through this project I could understand and remin
 - It can detect each point of hand landmarks so that coordiante information of landmarks could be gained by the index.
 - So I just picked the data of `4.THUMP_TIM` and `8.INDEX_FINGER_TIP` to calculate its distance. 
 - The value could be increased and decreased when I enlarge and narrow down two fingers, just like zoooming in and out the photos on my iphone.
-![hand Landmark by mediapipe](https://mediapipe.dev/images/mobile/hand_landmarks.png)
+![hand Landmark by mediapipe](hand-Landmark-mediapipe.png)
 **Anyway, now  I could use this value to control servo motor integrated in a breadboard. easy.**
 
 
@@ -78,7 +78,7 @@ void loop() {
 }
 ```
 - I could assume that it is related with commonly used library `Serial` in arduino. 
-![arduino serial read](arduino_serialRead.png)
+![arduino serial read](arduino-serial-Read.png)
 
 **python code in host device**
 - `senddata` one of methods from `cvzone` is actually refering `write` method of `pyserial`.
@@ -94,13 +94,13 @@ def send_int_toArduino(self, dist):
 
 ```
 
-![pyserial write method](pyserial_write.png)
+![pyserial write method](pyserial-write-method.png)
 
 
 ### **3. Integrating Servo motor and make it move with the distance value.**
 
 The board looks like this..
-![board](board.jpg)
+![bread board setup](bread-board-setup.jpg)
 
 - By using `Servo` libary, servo motor can communicatig with arduino and rotating the wheel.
 - In the codes, I attached it to a specific pin of arduino, And wrote the distance depend on my finger movement.

@@ -18,7 +18,7 @@ In that tutorial, I could learn and know the way of how computer vision techniqu
 For exampls, if the human face is detectted on camera image, I can make a logic to send positive signal(1) to arudino and it recieves the signal and use it to light up a LED lamp accourdingly. This is all the idea and concept that arduino can do.
 
 ## **Concept Diagram**
-![concept of data exchange](data_exchange.png)
+![concept of data exchange](data-exchange.png)
 _concept of data exchange between Processing PC and the arduiono._
 
 
@@ -102,7 +102,7 @@ I've got noticed that there are each paired methods between the device and the P
 >Once a face is detected, It turns green LED on. Else, Red LED on.
 {: .prompt-tip }
 
-![faceDetect with arduino](0225_faceDetect_withARD.gif)
+![faceDetect with arduino](face-Detect-with-arduino.gif)
 
 
 ## **Reference**
