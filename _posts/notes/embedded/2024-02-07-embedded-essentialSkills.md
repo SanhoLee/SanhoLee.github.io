@@ -19,7 +19,7 @@ img_path: /imgs/ebd/202402/
     - Motor control could be one example, if duty ratio is going to high, velocity will be faster.
 
 ![1](Duty-Cycle.jpg)
- _concept of duty cycle._
+ _concept of duty cycle_
 
 ### About and differences of i2c, spi, uart communications
 
@@ -31,7 +31,7 @@ img_path: /imgs/ebd/202402/
     - SDA(Serial Data) : allosw master and slave to send and recieve data.
 
 ![i2c](I2C-layout.png)
-_i2c_
+_i2c layout_
 
 #### 2. spi(serial peripheral interface) : 
 - Full duplex mode, synchronous, high speed.
@@ -43,7 +43,7 @@ _i2c_
     - SS(Slave Select)
 
 ![spi](SPI-bus.png)
-_spi_
+_spi bus_
 
 #### 3. uart : Universal Asynchronous Reception and Transmission
 - full duplex mode, asynchronous
@@ -51,7 +51,7 @@ _spi_
 - uses 2 wires(Tx, Rx)
 
 ![uart](uart.png)
-_uart_
+_uart communication_
 
 reference : *[https://www.nextpcb.com/blog/spi-i2c-uart](https://www.nextpcb.com/blog/spi-i2c-uart)*
 

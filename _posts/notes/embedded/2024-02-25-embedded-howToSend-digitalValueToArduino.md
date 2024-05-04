@@ -19,7 +19,7 @@ For exampls, if the human face is detectted on camera image, I can make a logic 
 
 ## **Concept Diagram**
 ![concept of data exchange](data-exchange.png)
-_concept of data exchange between Processing PC and the arduiono._
+_concept of data exchange between Processing PC and the arduiono_
 
 
 ## **Computer Vision Processing and Sending the signal from external PC**
@@ -103,6 +103,7 @@ I've got noticed that there are each paired methods between the device and the P
 {: .prompt-tip }
 
 ![faceDetect with arduino](face-Detect-with-arduino.gif)
+_face detection with arduino_
 
 
 ## **Reference**

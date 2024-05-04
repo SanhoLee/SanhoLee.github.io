@@ -11,6 +11,7 @@ img_path: /imgs/pjt/cv/fingerController/
 ## Preview - How to work
 **Please find rotating propeller on image. It works by my fingers**
 ![preview](preview.gif)
+_How it works : Detected? then control the motor_
 
 
 ---
@@ -20,6 +21,7 @@ img_path: /imgs/pjt/cv/fingerController/
 After I've learned how to send serial signal to arduino device, I wanted to make its application based on computer vision. but it should simple. 
 
 ![serialComm](What-is-Serial-Communication.jpg)
+_concept of serial communication_
 
 My idea was combining just like object detection and something could make any values from it.
 
@@ -52,6 +54,7 @@ Yes, nothing very special, but through this project I could understand and remin
 - So I just picked the data of `4.THUMP_TIM` and `8.INDEX_FINGER_TIP` to calculate its distance. 
 - The value could be increased and decreased when I enlarge and narrow down two fingers, just like zoooming in and out the photos on my iphone.
 ![hand Landmark by mediapipe](hand-Landmark-mediapipe.png)
+_Index of hand landmark by mediapipe_
 **Anyway, now  I could use this value to control servo motor integrated in a breadboard. easy.**
 
 
@@ -79,6 +82,7 @@ void loop() {
 ```
 - I could assume that it is related with commonly used library `Serial` in arduino. 
 ![arduino serial read](arduino-serial-Read.png)
+_read method of `Serial`_
 
 **python code in host device**
 - `senddata` one of methods from `cvzone` is actually refering `write` method of `pyserial`.
@@ -95,12 +99,14 @@ def send_int_toArduino(self, dist):
 ```
 
 ![pyserial write method](pyserial-write-method.png)
+_write method of `pyserial`_
 
 
 ### **3. Integrating Servo motor and make it move with the distance value.**
 
 The board looks like this..
 ![bread board setup](bread-board-setup.jpg)
+_bread board setup_
 
 - By using `Servo` libary, servo motor can communicatig with arduino and rotating the wheel.
 - In the codes, I attached it to a specific pin of arduino, And wrote the distance depend on my finger movement.

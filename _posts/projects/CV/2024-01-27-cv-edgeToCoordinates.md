@@ -12,11 +12,12 @@ img_path: /imgs/pjt/cv/edgeToCoordinates/
 
 **Overall appearance and potential usage.**
 ![overall Appearance](overall-appearance-and-result.png)
+_Left : appearance of the application, Right : validating the accuracy with extracted data_
 
 
 **Available  mouseEvent - cutting img**
 ![mouse_imgCut](mouseEvent-image-Cut.gif)
-_cutting img by selecting 2 points rectangle-shape of ROI_
+_cutting image by selecting 2 points rectangle-shape of ROI_
 
 **Available  mouseEvent - masking img**
 ![mouse_imgMask](mouseEvent_image-Mask.gif)
