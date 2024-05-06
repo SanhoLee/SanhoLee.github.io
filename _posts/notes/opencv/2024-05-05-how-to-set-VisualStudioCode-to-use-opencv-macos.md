@@ -27,7 +27,7 @@ permalink: /:categories/1
 However, since VSC (Visual Studio Code) has advantages of ease of use and lightness, I've worked hard to organize the setting method. Also, using VSC seems to increase productivity by simply pasting a pre-set file into a project, without configuring cumbersome settings for each project.
 
 ---
-<br>
+
 ## **1. Install Visual Studio Code**
 
 Select one of the following to install visual studio code.
@@ -57,21 +57,18 @@ Installing and setting at once through the brew.
 ```bash
 brew install opencv
 ```
-<br>
 
-It will be installed on following directory if you enter the command above.
+installed on following directory if you enter the command above.
 
-```bash
-/usr/local/Cellar/opencv/
-```
+`/usr/local/Cellar/opencv/`
 
 <br>
 
 ## **5. Configre opencv environment 🔗 c_cpp_properties.json**
 
-### 5.0 Pre-works
+### **5.0 Pre-works**
 
-- ** `c_cpp_properties.json` file :**
+- **`c_cpp_properties.json` file :**
 	- supports additional features of C/C++ Intelligence extensions
 	- lets you specify a standard version of the C++
 	- add a relative path to refering particular header files for opencv packages
@@ -116,7 +113,7 @@ _Specifying c/c++ environment, json-way_
 }
 ```
 <br>
-### 5.1 Set pkg-config ⚙️
+### **5.1 Set pkg-config ⚙️**
 
 This is a little cumbersome work, once you want to use opencv feature with C++, especially when you need to refering specific library of opencv, I recommend this way to configure it to use. 
 
@@ -151,7 +148,7 @@ _inside of opencv4.pc file_
 Now `pkg-config` can refer to `IncludePath` of opencv and (multiple) dynamic libraries as an argument by this pc file, but still `pkg-config` cannot be called globally, so let's set PATH globally.
 
 <br>
-### 5.2 Set pkg-config PATH ⚙️
+### **5.2 Set pkg-config PATH ⚙️**
 
 The idea is setting the path of the environment variable.(just like we usually do) The variable name for `pkg-config` is `PKG_CONFIG_PATH`, and make sure assigning it to the path where the opencv4.pc file located. I typed a line into the `.zshrc` file in the root directory (because the writer is using `Oh-my-zsh`.) for permanent assignment.
 
@@ -164,7 +161,7 @@ echo $PKG_CONFIG_PATH
 ```
 
 <br>
-### 5.3 Compiling source codes by refering opencv pakage ⚙️
+### **5.3 Compiling source codes by refering opencv pakage ⚙️**
 
 Once the setup is complete up, you should check if referring libraries work properly. Please enter the command below at the terminal. String of `opencv4` in below command should be same with the pc extension file name.
 
@@ -177,7 +174,7 @@ pkg-config opencv4 --libs --cflags opencv4
 ![list of referring libraries by pkg-config][ref-img4]
 _list of referring libraries by pkg-config_
 
-## Testing
+## **Testing**
 
 Then, I created a cpp file and tested if compiling with the opencv packages works fine.
 Please prepare any image file in the project folder for the test.
