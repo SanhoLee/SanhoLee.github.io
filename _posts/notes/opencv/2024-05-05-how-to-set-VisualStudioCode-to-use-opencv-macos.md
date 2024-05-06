@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How to configure C++ enviornment of opencv in Visual Studio Code - macOS"
+title: "How to configure C++ environment of opencv in Visual Studio Code - macOS"
 date: 2024-05-05 12:00:10 +0900
 categories: [notes, opencv]
-tags: [howToX, opencv, vsc]
+tags: [howToX, opencv, vsc, c++]
 img_path: /imgs/opencv/202405/
 permalink: /:categories/1
 

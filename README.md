@@ -1,4 +1,4 @@
-# My BLOG : [sanholee.github.io](sanholee.github.io)
+# My BLOG : [sanholee.github.io](https://sanholee.github.io/)
 
 ## ToDO
 - [ ] set myblog commonmark engine // later
